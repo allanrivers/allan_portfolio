@@ -18,7 +18,7 @@
   <body>
     <header>
       <!-- Top navbar with links to pages -->
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-md navbar-dark">
         <button
           class="navbar-toggler"
           data-toggle="collapse"
@@ -39,7 +39,7 @@
               <a href="#aboutMe" class="nav-link">About Me</a>
             </li>
             <li class="nav-item" title="Allan Rivers Contact page ">
-              <a href="#" class="nav-link">Contact Me</a>
+              <a href="#contactMe" class="nav-link">Contact Me</a>
             </li>
           </ul>
         </div>
@@ -50,12 +50,18 @@
     </header>
 
     <!-- Introduction section -->
-    <div class="container-fluid introductionContent"></div>
+    <div class="container-fluid introductionContent text-center text-white">
+      <div class="introduction-title">
+        <h1>Hello, I'm Allan Rivers.</h1>
+        <h2 class="h1">I'm a Front-end web developer.</h2>
+      </div>
+    </div>
     <!-- End of introduction section -->
 
     <!-- Projects section -->
+    <!--  -->
     <main class="container-fluid my-5" id="projects">
-      <h2 title="Allan's projects" class="text-center">Projects</h2>
+      <h2 title="Allan's projects" class="text-center"><u>Projects</u></h2>
 
       <div class="container-fluid">
         <ul class="nav justify-content-center py-5">
@@ -648,8 +654,35 @@
     </main>
     <!-- End of projects section -->
 
+    <!-- About Me section -->
     <div id="aboutMe"></div>
+    <!-- End of about me section -->
 
+    <!-- Contact Me section -->
+    <footer id="contactMe" class="text-center py-0 text-white">
+      <h2 class="text-white py-5"><u>Connect With Me</u></h2>
+      <div class="connect-icons pb-5">
+        <a href="" class="mx-2"
+          ><img src="./icons/github.png" alt="Github logo"
+        /></a>
+        <a href="" class="mx-2"
+          ><img src="./icons/linkedin.png" alt="LinkedIn logo"
+        /></a>
+      </div>
+
+      <div class="resume info py-5">
+        <h3>Resume</h3>
+        <a href="#"><img src="./icons/resume.png" alt="Resume icon" /></a>
+      </div>
+
+      <div class="connect-info text-white">
+        <h3 class="m-0">
+          Email:
+          <a href="mailto:allanrivers99@gmail.com">allanrivers99@gmail.com</a>
+        </h3>
+      </div>
+    </footer>
+    <!-- End of contact me section -->
     <!-- Bootstrap js -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
