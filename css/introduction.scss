@@ -1,0 +1,52 @@
+.introductionContent {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),
+    url("../images/back.jpg") fixed no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+
+  .introduction-title {
+    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 50%;
+    position: absolute;
+    font-weight: 500;
+    width: 80%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .introduction-title {
+    h1,
+    h2 {
+      font-size: 2.5rem !important;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .introductionContent {
+    .introduction-title {
+      top: 38%;
+      h1,
+      h2 {
+        font-size: 2rem !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .introductionContent {
+    min-height: 80vh;
+    background-size: 100% 100%;
+
+    .introduction-title {
+      top: 38%;
+
+      h1,
+      h2 {
+        font-size: 1.5rem !important;
+      }
+    }
+  }
+}
