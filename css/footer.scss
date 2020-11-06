@@ -1,0 +1,16 @@
+footer {
+  background-color: black;
+}
+
+@media (max-width: 550px) {
+  footer {
+    h2 {
+      font-size: 1.8rem;
+    }
+    .connect-info {
+      a {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

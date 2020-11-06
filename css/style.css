@@ -3,20 +3,12 @@ body {
   font-family: "Montserrat", sans-serif !important;
 }
 
-#footer {
-  margin-bottom: 0px;
-}
-
 html {
   background-color: black;
 }
 
 header nav {
   background-color: black !important;
-}
-
-footer {
-  background-color: black;
 }
 
 h2 {
