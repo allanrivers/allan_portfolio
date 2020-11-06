@@ -15,8 +15,21 @@
 }
 
 .navbar-nav {
+  .nav-link {
+    position: relative;
+    animation: moveRight 2s linear;
+  }
   .nav-link:hover {
     color: white;
+  }
+}
+
+@keyframes moveRight {
+  0% {
+    left: -250px;
+  }
+  100% {
+    left: 0px;
   }
 }
 
