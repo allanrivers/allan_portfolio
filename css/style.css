@@ -1,5 +1,6 @@
 body {
   scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 #footer {
@@ -35,9 +36,10 @@ footer {
 
 .introduction-title {
   transform: translate(-50%, -50%);
-  top: 30%;
+  top: 25%;
   left: 50%;
   position: absolute;
+  font-weight: 500;
 }
 
 h2 {

@@ -1,1 +1,91 @@
-/* No CSS *//*# sourceMappingURL=projects.css.map */
+.card {
+  height: 20rem;
+  -webkit-box-shadow: 1px 1px 5px black;
+          box-shadow: 1px 1px 5px black;
+}
+
+.card .card-top {
+  background-color: rgba(253, 250, 250, 0.5) !important;
+}
+
+.card .card-top h3 {
+  font-size: 2rem !important;
+  padding: 1rem;
+}
+
+.card .card-body #primed-logo {
+  height: 10rem;
+}
+
+.card .card-body img {
+  height: 5rem;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+
+.card .card-footer {
+  width: 100% !important;
+}
+
+.card .card-footer a {
+  font-size: 1rem !important;
+}
+
+@media (min-width: 2000px) {
+  .card .card-top h3 {
+    font-size: 2.2rem !important;
+  }
+  .card .card-body #primed-logo {
+    height: 12rem;
+  }
+  .card .card-body #minty-icon {
+    height: 7rem;
+  }
+  .card .card-body img {
+    height: 10rem;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+  }
+  .card .card-footer a {
+    font-size: 1.2rem !important;
+  }
+  .card .card-footer a button {
+    width: 10rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .card-footer button {
+    padding: 0.5rem;
+  }
+}
+
+@media (min-width: 750px) {
+  .card {
+    height: 22rem;
+  }
+  .card .card-body #primed-logo {
+    height: 9.5rem;
+  }
+  .card .card-body img {
+    height: 4.5rem;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+  }
+}
+
+@media (max-width: 350px) {
+  .card .card-footer button {
+    font-size: 0.75rem;
+  }
+}
+/*# sourceMappingURL=projects.css.map */
