@@ -15,6 +15,10 @@
   width: 80%;
 }
 
+.navbar-nav .nav-link:hover {
+  color: white;
+}
+
 @media (max-width: 1300px) {
   .introduction-title h1,
   .introduction-title h2 {
@@ -24,7 +28,7 @@
 
 @media (max-width: 768px) {
   .introductionContent .introduction-title {
-    top: 38%;
+    top: 50%;
   }
   .introductionContent .introduction-title h1,
   .introductionContent .introduction-title h2 {
@@ -38,7 +42,7 @@
     background-size: 100% 100%;
   }
   .introductionContent .introduction-title {
-    top: 38%;
+    top: 50%;
   }
   .introductionContent .introduction-title h1,
   .introductionContent .introduction-title h2 {
