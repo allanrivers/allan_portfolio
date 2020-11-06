@@ -1,5 +1,83 @@
 footer {
   background-color: black;
+
+  .connect-icons {
+    opacity: 0;
+  }
+  .scrollMethod {
+    animation: showIcons 1.5s linear;
+    position: relative;
+  }
+
+  .overScroll {
+    animation: hideIcons 1.5s linear;
+    position: relative;
+  }
+
+  #resumeIcon {
+    opacity: 0;
+  }
+
+  .pushUp {
+    position: relative;
+    animation: pushUp 1.5s linear;
+  }
+
+  .pushDown {
+    position: relative;
+    animation: pushDown 1.5s linear;
+  }
+}
+
+@keyframes pushUp {
+  0% {
+    bottom: -50px;
+    opacity: 0;
+  }
+
+  50% {
+    bottom: 20px;
+    opacity: 0.8;
+  }
+
+  100% {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes pushDown {
+  0% {
+    bottom: 0px;
+    opacity: 1;
+  }
+
+  100% {
+    bottom: -50px;
+    opacity: 0;
+  }
+}
+
+@keyframes hideIcons {
+  0% {
+    left: 0px;
+    opacity: 1;
+  }
+  100% {
+    left: -300px;
+    opacity: 0;
+  }
+}
+
+@keyframes showIcons {
+  0% {
+    left: -300px;
+    opacity: 0.4;
+  }
+  100% {
+    left: 0px;
+    opacity: 1;
+  }
 }
 
 @media (max-width: 550px) {

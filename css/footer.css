@@ -2,6 +2,134 @@ footer {
   background-color: black;
 }
 
+footer .connect-icons {
+  opacity: 0;
+}
+
+footer .scrollMethod {
+  -webkit-animation: showIcons 1.5s linear;
+          animation: showIcons 1.5s linear;
+  position: relative;
+}
+
+footer .overScroll {
+  -webkit-animation: hideIcons 1.5s linear;
+          animation: hideIcons 1.5s linear;
+  position: relative;
+}
+
+footer #resumeIcon {
+  opacity: 0;
+}
+
+footer .pushUp {
+  position: relative;
+  -webkit-animation: pushUp 1.5s linear;
+          animation: pushUp 1.5s linear;
+}
+
+footer .pushDown {
+  position: relative;
+  -webkit-animation: pushDown 1.5s linear;
+          animation: pushDown 1.5s linear;
+}
+
+@-webkit-keyframes pushUp {
+  0% {
+    bottom: -50px;
+    opacity: 0;
+  }
+  50% {
+    bottom: 20px;
+    opacity: 0.8;
+  }
+  100% {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes pushUp {
+  0% {
+    bottom: -50px;
+    opacity: 0;
+  }
+  50% {
+    bottom: 20px;
+    opacity: 0.8;
+  }
+  100% {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes pushDown {
+  0% {
+    bottom: 0px;
+    opacity: 1;
+  }
+  100% {
+    bottom: -50px;
+    opacity: 0;
+  }
+}
+
+@keyframes pushDown {
+  0% {
+    bottom: 0px;
+    opacity: 1;
+  }
+  100% {
+    bottom: -50px;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes hideIcons {
+  0% {
+    left: 0px;
+    opacity: 1;
+  }
+  100% {
+    left: -300px;
+    opacity: 0;
+  }
+}
+
+@keyframes hideIcons {
+  0% {
+    left: 0px;
+    opacity: 1;
+  }
+  100% {
+    left: -300px;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes showIcons {
+  0% {
+    left: -300px;
+    opacity: 0.4;
+  }
+  100% {
+    left: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes showIcons {
+  0% {
+    left: -300px;
+    opacity: 0.4;
+  }
+  100% {
+    left: 0px;
+    opacity: 1;
+  }
+}
+
 @media (max-width: 550px) {
   footer h2 {
     font-size: 1.8rem;

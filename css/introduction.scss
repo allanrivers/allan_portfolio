@@ -17,7 +17,7 @@
 .navbar-nav {
   .nav-link {
     position: relative;
-    animation: moveRight 2s linear;
+    animation: moveRight 1.5s linear;
   }
   .nav-link:hover {
     color: white;
@@ -26,10 +26,12 @@
 
 @keyframes moveRight {
   0% {
-    left: -250px;
+    left: -100px;
+    opacity: 0;
   }
   100% {
     left: 0px;
+    opacity: 1;
   }
 }
 

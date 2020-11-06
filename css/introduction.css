@@ -17,8 +17,8 @@
 
 .navbar-nav .nav-link {
   position: relative;
-  -webkit-animation: moveRight 2s linear;
-          animation: moveRight 2s linear;
+  -webkit-animation: moveRight 1.5s linear;
+          animation: moveRight 1.5s linear;
 }
 
 .navbar-nav .nav-link:hover {
@@ -27,19 +27,23 @@
 
 @-webkit-keyframes moveRight {
   0% {
-    left: -250px;
+    left: -100px;
+    opacity: 0;
   }
   100% {
     left: 0px;
+    opacity: 1;
   }
 }
 
 @keyframes moveRight {
   0% {
-    left: -250px;
+    left: -100px;
+    opacity: 0;
   }
   100% {
     left: 0px;
+    opacity: 1;
   }
 }
 
